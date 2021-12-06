@@ -2,21 +2,23 @@
   "name": "tm-creator",
   "version": "1.0.0",
   "description": "My application 2021",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ./src",
+    "build-macOS": "electron-packager ./src FirstApp --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src FirstApp --platform=win32 --arch=x64 --overwrite"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KinjoHironobu/tm-creator.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hironobu Kinjo",
   "bugs": {
     "url": "https://github.com/KinjoHironobu/tm-creator/issues"
   },
   "homepage": "https://github.com/KinjoHironobu/tm-creator#readme",
   "devDependencies": {
-    "electron": "^16.0.4"
+    "electron": "^16.0.4",
+    "electron-packager": "^15.4.0"
   }
 }
