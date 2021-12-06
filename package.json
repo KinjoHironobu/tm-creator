@@ -1,0 +1,22 @@
+{
+  "name": "tm-creator",
+  "version": "1.0.0",
+  "description": "My application 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KinjoHironobu/tm-creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KinjoHironobu/tm-creator/issues"
+  },
+  "homepage": "https://github.com/KinjoHironobu/tm-creator#readme",
+  "devDependencies": {
+    "electron": "^16.0.4"
+  }
+}
